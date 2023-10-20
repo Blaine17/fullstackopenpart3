@@ -105,9 +105,9 @@ app.post('/api/persons', (request, response) => {
 
 })
 
+module.exports = app
 
-
-const PORT = 3001
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
-})
+// const PORT = 3001
+// app.listen(PORT, () => {
+//   console.log(`Server running on port ${PORT}`)
+// })
